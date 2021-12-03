@@ -1,0 +1,38 @@
+.project-title{
+    font-size :15px;
+    padding: 10px;
+    color:white;
+    background-color:#1E90FF;
+    font-display: flex;
+    text-indent :25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.appselect{
+    padding : 20px;
+    text-align: center;
+}
+#tag1{
+    margin-right: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#selectag{
+    width: 200px; 
+    height: 25px;  
+    border: -1px solid;
+}
+
+.imgsrc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height:300px
+}
+
+.imgtag{
+    align-items :center;
+    display: flex;
+    justify-content: center;
+}

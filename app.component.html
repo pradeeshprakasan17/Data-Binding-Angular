@@ -1,0 +1,19 @@
+
+<div class="project-title">
+  {{title}}
+</div>
+
+<div class="appselect">
+  <label id='tag1'>{{appSelect}}</label>
+  <select id="selectag" [(ngModel)]="imglink">
+      <option *ngFor="let pro of program" [value]="pro.src">{{pro.name}}</option>
+  </select>
+</div>
+
+<div class="imgtag">
+  <img class='imgsrc' src={{imglink}}/>
+</div>
+
+
+
+<router-outlet></router-outlet>
